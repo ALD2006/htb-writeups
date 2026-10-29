@@ -8,6 +8,7 @@ Chaque machine suit la même trame : recon → foothold → post-exploitation �
 
 | Machine | Plateforme | Thème principal |
 |---|---|---|
+| [Starting Point (Tier 0–1)](starting-point.md) | HTB Starting Point | 8 machines : telnet · FTP · Redis · SMB · SQLi · MariaDB · chaînage FTP→web · LFI/RFI → coercition SMB → NetNTLMv2 → WinRM |
 | [Three & Vaccine](three-vaccine.md) | HTB Starting Point (T1/T2) | vhost + bucket S3 → webshell ; FTP → zip → SQLi PostgreSQL → `sudo vi` (GTFOBins) |
 | [Oopsie & Archetype](oopsie-archetype.md) | HTB Starting Point (T2) | cookie forgé + PATH hijacking (SUID) ; SMB anonyme → MSSQL `xp_cmdshell` → cradle PowerShell → psexec |
 | [Unified](unified.md) | HTB Starting Point (T2) | Log4Shell + contournement `trustURLCodebase` (rogue-jndi) ; MongoDB sans auth (write) |
